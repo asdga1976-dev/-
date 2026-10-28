@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173c36">
+  <meta name="description" content="قصر الندا لنقل العفش والأثاث في المملكة العربية السعودية. تواصل معنا عبر الاتصال أو واتساب.">
+  <title>قصر الندا لنقل العفش</title>
+  <style>
+    :root{--green:#173c36;--green2:#24564b;--gold:#d8b46a;--cream:#fbf8f0;--ink:#20312c;--muted:#64736c;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.85}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:9;background:var(--green);color:#fff;box-shadow:0 3px 14px #0002}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:bold}
+    .mark{display:grid;place-items:center;width:46px;height:46px;border:2px solid var(--gold);border-radius:13px;color:var(--gold);font-size:27px}
+    .brand small{display:block;color:#d9e4df;font-size:11px;font-weight:normal}
+    nav{display:flex;gap:18px;font-size:14px}
+    nav a:hover{color:var(--gold)}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:12px 19px;border-radius:11px;font-weight:bold;border:0;cursor:pointer;transition:.2s}
+    .btn:hover{transform:translateY(-2px)}
+    .gold{background:var(--gold);color:#172e28}
+    .wa{background:#20a85a;color:white}
+    .call{background:white;color:var(--green)}
+    .hero{background:linear-gradient(90deg,rgba(16,42,38,.96) 0%,rgba(16,42,38,.84) 48%,rgba(16,42,38,.38) 100%),url(https://albassem.icu/img/moving-panorama.webp) center/cover no-repeat;color:white;padding:70px 0 82px}
+    .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:38px}
+    .eyebrow{color:var(--gold);font-weight:bold}
+    h1{font-size:clamp(32px,5vw,53px);line-height:1.35;margin:12px 0 17px}
+    .hero p{font-size:17px;color:#e2e9e5;max-width:620px;margin:0 0 24px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-card{border:1px solid #ffffff2e;background:#ffffff0c;border-radius:24px;padding:28px;text-align:center}
+    .house{font-size:70px;line-height:1.2;color:var(--gold)}
+    .hero-card h2{font-size:23px;margin:12px 0 6px}
+    .hero-card p{font-size:14px;margin:0}
+    .trust{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:-25px;position:relative}
+    .trust article{background:#fff;border:1px solid #eee5d4;border-radius:15px;padding:16px;text-align:center;box-shadow:0 8px 22px #173c360d}
+    .trust b{display:block;color:var(--green)}
+    .trust span{font-size:13px;color:var(--muted)}
+    section{padding:68px 0}
+    .head{text-align:center;max-width:700px;margin:0 auto 32px}
+    .head h2{font-size:clamp(26px,3.5vw,35px);color:var(--green);margin:5px 0}
+    .head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+    .card{background:#fff;border:1px solid #eee5d4;border-radius:17px;overflow:hidden;padding:0}.card .service-photo{display:block;width:100%;height:175px;object-fit:cover;background:#e7e1d4}.card .service-copy{padding:18px 20px 22px}
+    .ico{width:48px;height:48px;display:grid;place-items:center;background:#f5ecd8;color:#89672b;border-radius:14px;font-size:24px;margin-bottom:12px}
+    .card h3{color:var(--green);margin:0 0 7px;font-size:18px}
+    .card p{color:var(--muted);font-size:14px;margin:0}
+    .areas-section{background:#f0ede4}
+    .areas{display:grid;grid-template-columns:repeat(5,1fr);gap:11px}
+    .area{background:#fff;border:1px solid #e8e0cf;border-radius:11px;padding:12px 7px;text-align:center;font-weight:bold;color:var(--green)}
+    .area:before{content:"⌖ ";color:#b58b3e}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .gallery-card{background:#fff;border:1px solid #eee5d4;border-radius:17px;overflow:hidden;box-shadow:0 8px 22px #173c360b}
+    .gallery-card img{display:block;width:100%;height:230px;object-fit:cover;background:#e7e1d4}
+    .gallery-card div{padding:15px 17px}
+    .gallery-card h3{margin:0 0 5px;color:var(--green);font-size:17px}
+    .gallery-card p{margin:0;color:var(--muted);font-size:13px}
+    .contact-box{background:var(--green);color:white;border-radius:22px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+    .contact-box h2{font-size:clamp(24px,3vw,33px);margin:0 0 8px}
+    .contact-box p{margin:0;color:#dce6e1}
+    .contact-box .phone{margin-top:7px;color:#f1dca7;font-weight:bold}
+    footer{background:#102a26;color:#d9e3de;padding:25px 0}
+    .foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    footer small{color:#b8c8c1}
+    .floaters{position:fixed;bottom:17px;left:17px;display:flex;flex-direction:column;gap:9px;z-index:10}
+    .floaters a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:23px;box-shadow:0 5px 16px #0003}
+    .floaters .fwa{background:#20a85a}.floaters .fcall{background:var(--green)}
+    @media(max-width:800px){nav{display:none}.hero-grid{grid-template-columns:1fr}.hero-card{max-width:430px}.cards{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.areas{grid-template-columns:repeat(3,1fr)}.contact-box{display:block}.contact-box .actions{margin-top:20px}.trust{grid-template-columns:1fr;margin-top:-18px}}
+    @media(max-width:520px){.hero{padding:52px 0 62px}.cards{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery-card img{height:220px}.areas{grid-template-columns:repeat(2,1fr)}.btn{width:100%}.actions{width:100%}.contact-box{padding:24px}.brand{font-size:14px}.mark{width:41px;height:41px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="mark">⌂</span><span>قصر الندا لنقل العفش<small>نقل أثاث بعناية واهتمام</small></span></a>
+    <nav><a href="#home">الرئيسية</a><a href="#services">خدماتنا</a><a href="#gallery">الصور</a><a href="#areas">مناطق الخدمة</a><a href="#contact">اتصل بنا</a></nav>
+    <a class="btn gold" href="tel:0546779635">اتصل الآن</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">خدمات نقل العفش والأثاث</div>
+        <h1>نقل عفشك بكل سهولة<br>مع قصر الندا</h1>
+        <p>نهتم بتجربة نقل مريحة ونساعدك في تنسيق نقل الأثاث من البداية للنهاية. تواصل معنا لمعرفة التفاصيل وتحديد موعد الخدمة.</p>
+        <div class="actions">
+          <a class="btn wa" href="https://wa.me/966546779635" target="_blank" rel="noopener">◉ تواصل عبر واتساب</a>
+          <a class="btn call" href="tel:0546779635">☎ اتصال مباشر</a>
+        </div>
+      </div>
+      <div class="hero-card" style="padding:12px;overflow:hidden"><img src="https://albassem.icu/img/truck-workers.webp" alt="عمال ينقلون أثاثًا مغلفًا إلى شاحنة نقل" style="width:100%;height:240px;object-fit:cover;border-radius:16px"><h2>نقل وتغليف بعناية</h2><p>فريق يساعدك في ترتيب نقل أثاثك من البداية للنهاية.</p></div>
+    </div>
+  </section>
+  <div class="wrap trust">
+    <article><b>اهتمام بالتفاصيل</b><span>عناية بالأثاث أثناء النقل</span></article>
+    <article><b>تواصل سهل</b><span>اتصال مباشر أو واتساب</span></article>
+    <article><b>مناطق متعددة</b><span>خدمة في مدن مختلفة بالمملكة</span></article>
+  </div>
+  <section id="services">
+    <div class="wrap">
+      <div class="head"><div class="eyebrow">خدماتنا</div><h2>خدمات نقل عفش تناسب احتياجك</h2><p>تواصل معنا لمعرفة تفاصيل الخدمة وتنسيق احتياجات النقل.</p></div>
+      <div class="cards">
+        <article class="card"><img class="service-photo" src="https://albassem.icu/img/truck-workers.webp" alt="عمال يحملون أثاثًا مغلفًا إلى الشاحنة" loading="lazy"><div class="service-copy"><div class="ico">▣</div><h3>نقل العفش والأثاث</h3><p>تنظيم نقل الأثاث المنزلي مع الحرص على التعامل معه بعناية.</p></div></article>
+        <article class="card"><img class="service-photo" src="https://albassem.icu/img/sofa-delivery.webp" alt="عمال ينقلون كنبة مغلفة" loading="lazy"><div class="service-copy"><div class="ico">⚒</div><h3>فك وتركيب الأثاث</h3><p>المساعدة في فك وتركيب قطع الأثاث حسب تفاصيل الخدمة.</p></div></article>
+        <article class="card"><img class="service-photo" src="https://albassem.icu/img/carry-furniture.webp" alt="عامل يحمل كنبة محمية بالتغليف" loading="lazy"><div class="service-copy"><div class="ico">▤</div><h3>تغليف الأثاث</h3><p>تجهيز الأثاث للنقل للمساعدة في حمايته أثناء الحركة.</p></div></article>
+        <article class="card"><img class="service-photo" src="https://albassem.icu/img/loading-truck.webp" alt="تحميل الأثاث والصناديق في الشاحنة" loading="lazy"><div class="service-copy"><div class="ico">⇄</div><h3>النقل بين المدن</h3><p>تواصل معنا لترتيب نقل الأثاث بين المدن التي نغطيها.</p></div></article>
+        <article class="card"><img class="service-photo" src="https://albassem.icu/img/t-3.webp" alt="عمال يرتبون الصناديق والأثاث في الشاحنة" loading="lazy"><div class="service-copy"><div class="ico">⌂</div><h3>نقل الأثاث المنزلي</h3><p>تنسيق نقل محتويات المنزل وتفاصيل الطلب مسبقًا.</p></div></article>
+        <article class="card"><img class="service-photo" src="https://albassem.icu/img/t-4.webp" alt="عامل ينقل كنبة مغلفة إلى المنزل الجديد" loading="lazy"><div class="service-copy"><div class="ico">☎</div><h3>طلب خدمة واستفسار</h3><p>اتصل أو راسلنا على واتساب لمعرفة التفاصيل والموعد المناسب.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="head"><div class="eyebrow">صور من عالم نقل الأثاث</div><h2>نقل وتغليف بعناية</h2><p>صور توضيحية لعمال نقل الأثاث والتغليف والتحميل والشاحنات.</p></div>
+      <div class="gallery">
+        <article class="gallery-card"><img src="https://albassem.icu/img/truck-workers.webp" alt="عمال تحميل أثاث مغلف داخل شاحنة نقل" loading="lazy"><div><h3>تحميل الأثاث على الشاحنة</h3><p>ترتيب القطع والصناديق بعناية أثناء التحميل.</p></div></article>
+        <article class="gallery-card"><img src="https://albassem.icu/img/sofa-delivery.webp" alt="عمال ينقلون كنبة مغلفة إلى المنزل الجديد" loading="lazy"><div><h3>نقل الكنب والأثاث</h3><p>حمل الأثاث المغلف بعناية عند الدخول والخروج.</p></div></article>
+        <article class="gallery-card"><img src="https://albassem.icu/img/carry-furniture.webp" alt="عامل يحمل أثاثًا ملفوفًا بطبقة حماية" loading="lazy"><div><h3>حماية الأثاث</h3><p>تغليف القطع للمساعدة في تقليل الخدوش أثناء النقل.</p></div></article>
+        <article class="gallery-card"><img src="https://albassem.icu/img/loading-truck.webp" alt="عامل يرتب الصناديق والأثاث داخل شاحنة" loading="lazy"><div><h3>ترتيب داخل السيارة</h3><p>توزيع الصناديق والأثاث لتسهيل عملية النقل.</p></div></article>
+        <article class="gallery-card"><img src="https://albassem.icu/img/t-3.webp" alt="عمال ينقلون الصناديق والأثاث من وإلى الشاحنة" loading="lazy"><div><h3>فريق نقل الأثاث</h3><p>خطوات العمل من تحميل الأغراض حتى تجهيزها للتسليم.</p></div></article>
+        <article class="gallery-card"><img src="https://albassem.icu/img/moving-panorama.webp" alt="شاحنة نقل وأثاث جاهز للانتقال" loading="lazy"><div><h3>جاهزون للانتقال</h3><p>مشهد شامل للشاحنة والأثاث والصناديق قبل النقل.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="areas-section" id="areas">
+    <div class="wrap">
+      <div class="head"><div class="eyebrow">مناطق خدمتنا</div><h2>نصل إليكم في مناطق متعددة</h2><p>المناطق التي زودتنا بها الشركة.</p></div>
+      <div class="areas">
+        <div class="area">جدة</div><div class="area">مكة المكرمة</div><div class="area">الطائف</div><div class="area">الرياض</div><div class="area">حفر الباطن</div><div class="area">الدمام</div><div class="area">الأحساء</div><div class="area">الخبر</div><div class="area">الجبيل</div><div class="area">القصيم</div><div class="area">حائل</div><div class="area">عرعر</div><div class="area">سكاكا</div><div class="area">تبوك</div><div class="area">المدينة المنورة</div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrap contact-box">
+      <div><div class="eyebrow">نحن جاهزون لمساعدتك</div><h2>تحتاج نقل عفشك؟ تواصل معنا</h2><p>اتصل بنا أو أرسل تفاصيل طلبك على واتساب.</p><p class="phone">0546779635</p></div>
+      <div class="actions"><a class="btn wa" href="https://wa.me/966546779635" target="_blank" rel="noopener">◉ واتساب</a><a class="btn gold" href="tel:0546779635">☎ اتصال الآن</a></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><div><strong>قصر الندا لنقل العفش</strong><br><small>خدمات نقل العفش والأثاث</small></div><small>© <span id="year"></span> قصر الندا لنقل العفش</small></div></footer>
+<div class="floaters"><a class="fwa" href="https://wa.me/966546779635" target="_blank" rel="noopener" aria-label="واتساب">◉</a><a class="fcall" href="tel:0546779635" aria-label="اتصال">☎</a></div>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
